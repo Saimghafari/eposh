@@ -90,7 +90,7 @@ function Navbar() {
     };
 
 
-    const storedUser = localStorage.getItem("isLoggedIn");
+    // const storedUser = localStorage.getItem("isLoggedIn");
 
     // useEffect(() => {
 
@@ -104,7 +104,7 @@ function Navbar() {
     if (storedUser) {
       setIsLoggedIn(JSON.parse(storedUser));
     }
-  }, [storedUser]);
+  }, []);
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
