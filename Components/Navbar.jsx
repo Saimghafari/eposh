@@ -104,7 +104,7 @@ function Navbar() {
     if (storedUser) {
       setIsLoggedIn(JSON.parse(storedUser));
     }
-  }, []);
+  }, [storedUser]);
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
