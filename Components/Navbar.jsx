@@ -90,7 +90,7 @@ function Navbar() {
     };
 
 
-    // const storedUser = localStorage.getItem("isLoggedIn");
+    const storedUser = localStorage.getItem("isLoggedIn");
 
     // useEffect(() => {
 
